@@ -71,12 +71,12 @@ void    ClapTrap::beRepaired(unsigned int amount)
         std::cout << _name << " did not add any health points to their health\n";
 }
 
-void    ClapTrap::add_attack_damage(unsigned int amount)
-{
-    _Attack_damage += amount;
-}
+// void    ClapTrap::add_attack_damage(unsigned int amount)
+// {
+//     _Attack_damage += amount;
+// }
 
-void ClapTrap::rm_or_add_energy(int amount)
-{
-    _Energy_points += amount;
-}
+// void ClapTrap::rm_or_add_energy(int amount)
+// {
+//     _Energy_points += amount;
+// }

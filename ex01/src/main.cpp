@@ -2,47 +2,47 @@
 
 /* * * * * * * * * * * * * * ATTACK TEST * * * * * * * * * * * * * * * * */
 
-int main()
-{
-    ScavTrap Henry("Henry");
+// int main()
+// {
+//     ScavTrap Henry("Henry");
 
-    std::cout << "\n";
+//     std::cout << "\n";
 
-    Henry.guardGate();
+//     Henry.guardGate();
 
-    std::cout << "\n";
+//     std::cout << "\n";
 
-    /* NOT ENOUGH ATTACK DAMAGE */
-    Henry.attack("test");
+//     /* NOT ENOUGH ATTACK DAMAGE */
+//     Henry.attack("test");
 
-    std::cout << "\n";
+//     std::cout << "\n";
 
-    /* NOT ENOUGH ENERGY POINTS */
-    Henry.add_attack_damage(100);
-    Henry.rm_or_add_energy(-10);
-    Henry.attack("test");
+//     /* NOT ENOUGH ENERGY POINTS */
+//     Henry.add_attack_damage(100);
+//     Henry.rm_or_add_energy(-10);
+//     Henry.attack("test");
 
-    std::cout << "\n";
+//     std::cout << "\n";
 
-    /* NO TARGET */
-    Henry.attack("");
+//     /* NO TARGET */
+//     Henry.attack("");
 
-    std::cout << "\n";
+//     std::cout << "\n";
 
-    /* ATTACK WORKS */
-    Henry.rm_or_add_energy(10);
-    Henry.attack("enemy");
+//     /* ATTACK WORKS */
+//     Henry.rm_or_add_energy(10);
+//     Henry.attack("enemy");
 
-    std::cout << "\n";
+//     std::cout << "\n";
 
-    /* HENRY IS DEAD */
-    Henry.takeDamage(MAX_HEALTH);
-    Henry.attack("test");
+//     /* HENRY IS DEAD */
+//     Henry.takeDamage(MAX_HEALTH);
+//     Henry.attack("test");
 
-    std::cout << "\n";
+//     std::cout << "\n";
 
-    return 0;
-}
+//     return 0;
+// }
 
 /* * * * * * * * * * * * * * DAMAGE TEST * * * * * * * * * * * * * * * * */
 
