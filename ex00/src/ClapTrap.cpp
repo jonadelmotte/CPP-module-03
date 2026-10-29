@@ -1,11 +1,12 @@
 #include "../include/ClapTrap.hpp"
 
-ClapTrap::ClapTrap(const std::string &name)
+ClapTrap::ClapTrap() : _name(""), _Hit_points(10), _Energy_points(10), _Attack_damage(0)
 {
-    _name = name;
-    _Hit_points = 10;
-    _Energy_points = 10;
-    _Attack_damage = 0;
+    std::cout << "On the seventh day God created nobody" << "\n";   
+}
+
+ClapTrap::ClapTrap(const std::string &name) : _name(name), _Hit_points(10), _Energy_points(10), _Attack_damage(0)
+{
     std::cout << "On the seventh day God created " << _name << "\n";
 }
 

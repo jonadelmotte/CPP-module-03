@@ -6,6 +6,8 @@
 
 # define MAX_HEALTH 2147483647
 
+
+
 /**********************************************************/
 /*                                                        */
 /*                 CLAPTRAP CLASS                         */
@@ -21,6 +23,7 @@ class ClapTrap
         unsigned int         _Attack_damage;
 
     public :
+        ClapTrap();
         ClapTrap(const std::string &name);
         ~ClapTrap();
 

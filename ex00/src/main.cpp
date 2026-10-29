@@ -4,36 +4,36 @@
 
 // int main()
 // {
-//     ClapTrap theynry("theynry");
+//     ClapTrap Henry("Henry");
 
 //     std::cout << "\n";
 
 //     /* NOT ENOUGH ATTACK DAMAGE */
-//     theynry.attack("test");
+//     Henry.attack("test");
 
 //     std::cout << "\n";
 
 //     /* NOT ENOUGH ENERGY POINTS */
-//     theynry.add_attack_damage(100);
-//     theynry.rm_or_add_energy(-10);
-//     theynry.attack("test");
+//     Henry.add_attack_damage(100);
+//     Henry.rm_or_add_energy(-10);
+//     Henry.attack("test");
 
 //     std::cout << "\n";
 
 //     /* NO TARGET */
-//     theynry.attack("");
+//     Henry.attack("");
 
 //     std::cout << "\n";
 
 //     /* ATTACK WORKS */
-//     theynry.rm_or_add_energy(10);
-//     theynry.attack("enemy");
+//     Henry.rm_or_add_energy(10);
+//     Henry.attack("enemy");
 
 //     std::cout << "\n";
 
 //     /* HENRY IS DEAD */
-//     theynry.takeDamage(MAX_HEALTH);
-//     theynry.attack("test");
+//     Henry.takeDamage(MAX_HEALTH);
+//     Henry.attack("test");
 
 //     std::cout << "\n";
 
@@ -44,26 +44,26 @@
 
 // int main()
 // {
-//     ClapTrap hariet("hariet");
+//     ClapTrap Hariet("Hariet");
 
 //     std::cout << '\n';
 
 //     /* TAKE DAMAGE */
-//     hariet.takeDamage(1);
+//     Hariet.takeDamage(1);
 
 //     std::cout << '\n';
 
-//     hariet.takeDamage(0);
+//     Hariet.takeDamage(0);
 
 //     std::cout << '\n';
 
 //     /* TAKE TO MUCH DAMAGE */
-//     hariet.takeDamage(100);
+//     Hariet.takeDamage(100);
 
 //     std::cout << '\n';
 
 //     /* IS ALREADY DEAD */
-//     hariet.takeDamage(1);
+//     Hariet.takeDamage(1);
 
 //     std::cout << '\n';
 
@@ -74,35 +74,35 @@
 
 // int main()
 // {
-//     ClapTrap    sandrine("sandrine");
+//     ClapTrap    Sandrine("Sandrine");
 
 //     std::cout << "\n";
 
 //     /* NOTHING ADDED */
-//     sandrine.beRepaired(0);
+//     Sandrine.beRepaired(0);
 
 //     std::cout << '\n';
 
 //     /* NOT ENOUGH ENERGY */
-//     sandrine.rm_or_add_energy(-10);
-//     sandrine.beRepaired(10);
+//     Sandrine.rm_or_add_energy(-10);
+//     Sandrine.beRepaired(10);
 
 //     std::cout << '\n';
 
 //     /* TO BIG NUMBER TO ADD */
-//     sandrine.rm_or_add_energy(100);
-//     sandrine.beRepaired(MAX_HEALTH);
+//     Sandrine.rm_or_add_energy(100);
+//     Sandrine.beRepaired(MAX_HEALTH);
 
 //     std::cout << '\n';
 
 //     /* ALREADY TO HEALTHY */
-//     sandrine.beRepaired(1);
+//     Sandrine.beRepaired(1);
 
 //     std::cout << '\n';
 
 //     /* ALREADY DEAD */
-//     sandrine.takeDamage(MAX_HEALTH);
-//     sandrine.beRepaired(1);
+//     Sandrine.takeDamage(MAX_HEALTH);
+//     Sandrine.beRepaired(1);
 
 //     std::cout << '\n';
 
