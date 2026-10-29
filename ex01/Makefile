@@ -1,6 +1,6 @@
 NAME = ClapTrap
 
-FILES = main ClapTrap \
+FILES = main ClapTrap ScavTrap \
 
 SRC_DIR = src/
 OBJ_DIR = obj/

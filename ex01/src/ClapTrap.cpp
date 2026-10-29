@@ -10,15 +10,6 @@ ClapTrap::ClapTrap(const std::string &name) : _name(name), _Hit_points(10), _Ene
     std::cout << "On the seventh day God created " << _name << "\n";
 }
 
-ClapTrap::ClapTrap(const std::string &name)
-{
-    _name = name;
-    _Hit_points = 10;
-    _Energy_points = 10;
-    _Attack_damage = 0;
-    std::cout << "On the seventh day God created " << _name << "\n";
-}
-
 ClapTrap::~ClapTrap()
 {
     std::cout << _name << "are dead.... let us mourn in peace\n";
@@ -80,12 +71,12 @@ void    ClapTrap::beRepaired(unsigned int amount)
         std::cout << _name << " did not add any health points to their health\n";
 }
 
-// void    ClapTrap::add_attack_damage(unsigned int amount)
-// {
-//     _Attack_damage += amount;
-// }
+void    ClapTrap::add_attack_damage(unsigned int amount)
+{
+    _Attack_damage += amount;
+}
 
-// void ClapTrap::rm_or_add_energy(int amount)
-// {
-//     _Energy_points += amount;
-// }
+void ClapTrap::rm_or_add_energy(int amount)
+{
+    _Energy_points += amount;
+}
