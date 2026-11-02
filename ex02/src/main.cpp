@@ -1,39 +1,43 @@
-#include "../include/ScavTrap.hpp"
+#include "../include/FragTrap.hpp"
 
 /* * * * * * * * * * * * * * ATTACK TEST * * * * * * * * * * * * * * * * */
 
 // int main()
 // {
-//     ScavTrap Henry("Henry");
+//     FragTrap Nicole("Nicole");
+
+//     std::cout << "\n";
+
+//     Nicole.highFivesGuy();
 
 //     std::cout << "\n";
 
 //     /* NOT ENOUGH ATTACK DAMAGE */
-//     Henry.attack("test");
+//     Nicole.attack("test");
 
 //     std::cout << "\n";
 
 //     /* NOT ENOUGH ENERGY POINTS */
-//     Henry.add_attack_damage(100);
-//     Henry.rm_or_add_energy(-10);
-//     Henry.attack("test");
+//     Nicole.add_attack_damage(100);
+//     Nicole.rm_or_add_energy(-10);
+//     Nicole.attack("test");
 
 //     std::cout << "\n";
 
 //     /* NO TARGET */
-//     Henry.attack("");
+//     Nicole.attack("");
 
 //     std::cout << "\n";
 
 //     /* ATTACK WORKS */
-//     Henry.rm_or_add_energy(10);
-//     Henry.attack("enemy");
+//     Nicole.rm_or_add_energy(10);
+//     Nicole.attack("enemy");
 
 //     std::cout << "\n";
 
 //     /* HENRY IS DEAD */
-//     Henry.takeDamage(MAX_HEALTH);
-//     Henry.attack("test");
+//     Nicole.takeDamage(MAX_HEALTH);
+//     Nicole.attack("test");
 
 //     std::cout << "\n";
 
@@ -44,26 +48,26 @@
 
 // int main()
 // {
-//     ScavTrap Hariet("Hariet");
+//     FragTrap Nicolas("Nicolas");
 
 //     std::cout << '\n';
 
 //     /* TAKE DAMAGE */
-//     Hariet.takeDamage(1);
+//     Nicolas.takeDamage(1);
 
 //     std::cout << '\n';
 
-//     Hariet.takeDamage(0);
+//     Nicolas.takeDamage(0);
 
 //     std::cout << '\n';
 
 //     /* TAKE TO MUCH DAMAGE */
-//     Hariet.takeDamage(100);
+//     Nicolas.takeDamage(100);
 
 //     std::cout << '\n';
 
 //     /* IS ALREADY DEAD */
-//     Hariet.takeDamage(1);
+//     Nicolas.takeDamage(1);
 
 //     std::cout << '\n';
 
@@ -74,35 +78,35 @@
 
 // int main()
 // {
-//     ScavTrap    Sandrine("Sandrine");
+//     FragTrap    Jeanne("Jeanne");
 
 //     std::cout << "\n";
 
 //     /* NOTHING ADDED */
-//     Sandrine.beRepaired(0);
+//     Jeanne.beRepaired(0);
 
 //     std::cout << '\n';
 
 //     /* NOT ENOUGH ENERGY */
-//     Sandrine.rm_or_add_energy(-10);
-//     Sandrine.beRepaired(10);
+//     Jeanne.rm_or_add_energy(-10);
+//     Jeanne.beRepaired(10);
 
 //     std::cout << '\n';
 
 //     /* TO BIG NUMBER TO ADD */
-//     Sandrine.rm_or_add_energy(100);
-//     Sandrine.beRepaired(MAX_HEALTH);
+//     Jeanne.rm_or_add_energy(100);
+//     Jeanne.beRepaired(MAX_HEALTH);
 
 //     std::cout << '\n';
 
 //     /* ALREADY TO HEALTHY */
-//     Sandrine.beRepaired(1);
+//     Jeanne.beRepaired(1);
 
 //     std::cout << '\n';
 
 //     /* ALREADY DEAD */
-//     Sandrine.takeDamage(MAX_HEALTH);
-//     Sandrine.beRepaired(1);
+//     Jeanne.takeDamage(MAX_HEALTH);
+//     Jeanne.beRepaired(1);
 
 //     std::cout << '\n';
 
