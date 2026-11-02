@@ -18,10 +18,10 @@ FragTrap::FragTrap(const std::string &name) : ClapTrap(name)
 
 FragTrap::~FragTrap()
 {
-    std::cout << _name << " has passed, he will most likely not be remembered !\n";
+    std::cout << _name << " has passed, they will most likely not be remembered !\n";
 }
 
 void    FragTrap::highFivesGuys(void)
 {
-    std::cout << _name << "is not the smartest be nice to him : he's trying to high-fives you !\n";
+    std::cout << _name << "is not the smartest be nice to them : they'r trying to high-fives you !\n";
 }
