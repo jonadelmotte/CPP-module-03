@@ -1,6 +1,6 @@
 NAME = DiamondTrap
 
-FILES = main ClapTrap ScavTrap Fragtrap DiamondTrap \
+FILES = main ClapTrap ScavTrap FragTrap DiamondTrap \
 
 SRC_DIR = src/
 OBJ_DIR = obj/

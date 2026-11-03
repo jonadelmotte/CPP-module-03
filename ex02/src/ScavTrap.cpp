@@ -18,7 +18,7 @@ ScavTrap::ScavTrap(const std::string &name) : ClapTrap(name)
 
 ScavTrap::~ScavTrap()
 {
-    std::cout << _name << " has died certainly a glorious death !";
+    std::cout << _name << " has died certainly a glorious death !\n";
 }
 
 void    ScavTrap::attack(const std::string &target)

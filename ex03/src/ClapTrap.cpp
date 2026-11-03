@@ -1,6 +1,6 @@
 #include "../include/ClapTrap.hpp"
 
-ClapTrap::ClapTrap() : _name(""), _Hit_points(10), _Energy_points(10), _Attack_damage(0)
+ClapTrap::ClapTrap() : _name("Nobody"), _Hit_points(10), _Energy_points(10), _Attack_damage(0)
 {
     std::cout << "On the seventh day God created nobody" << "\n";   
 }
@@ -10,18 +10,9 @@ ClapTrap::ClapTrap(const std::string &name) : _name(name), _Hit_points(10), _Ene
     std::cout << "On the seventh day God created " << _name << "\n";
 }
 
-ClapTrap::ClapTrap(const std::string &name)
-{
-    _name = name;
-    _Hit_points = 10;
-    _Energy_points = 10;
-    _Attack_damage = 0;
-    std::cout << "On the seventh day God created " << _name << "\n";
-}
-
 ClapTrap::~ClapTrap()
 {
-    std::cout << _name << "are dead.... let us mourn in peace\n";
+    std::cout << _name << " are dead.... let us mourn in peace\n";
 }
 
 void    ClapTrap::attack(const std::string &target)
@@ -34,7 +25,7 @@ void    ClapTrap::attack(const std::string &target)
     else if (_Hit_points <= 0)
         std::cout << _name << " couldn't attack, they seem to be dead\n";
     else if (target.empty())
-        std::cout << _name << " couldn't attach they sadly dosen't have a target\n";
+        std::cout << _name << " couldn't attack they sadly dosen't have a target\n";
     else if (_Energy_points <= 0)
         std::cout << _name << " couldn't attack, they are way to tired\n";
     else

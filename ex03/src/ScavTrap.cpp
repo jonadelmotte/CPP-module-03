@@ -5,7 +5,7 @@ ScavTrap::ScavTrap() : ClapTrap()
     _Hit_points = 100;
     _Energy_points = 50;
     _Attack_damage = 20;
-    std::cout << "NO ONE is born better !\n";
+    std::cout << _name << " is born better !\n";
 }
 
 ScavTrap::ScavTrap(const std::string &name) : ClapTrap(name)
@@ -18,7 +18,7 @@ ScavTrap::ScavTrap(const std::string &name) : ClapTrap(name)
 
 ScavTrap::~ScavTrap()
 {
-    std::cout << _name << " has died certainly a glorious death !";
+    std::cout << _name << " has died certainly a glorious death !\n";
 }
 
 void    ScavTrap::attack(const std::string &target)

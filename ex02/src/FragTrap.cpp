@@ -23,5 +23,5 @@ FragTrap::~FragTrap()
 
 void    FragTrap::highFivesGuys(void)
 {
-    std::cout << _name << "is not the smartest be nice to them : they'r trying to high-fives you !\n";
+    std::cout << _name << " is not the smartest be nice to them : they'r trying to high-fives you !\n";
 }

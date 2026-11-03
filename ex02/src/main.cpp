@@ -1,14 +1,27 @@
 #include "../include/FragTrap.hpp"
 
+/* * * * * * * * * * * * * * FRAG TEST * * * * * * * * * * * * * * * * * */
+
+int main()
+{
+    FragTrap    Gisèle("Gisèle");
+
+    std::cout << "\n";
+
+    Gisèle.highFivesGuys();
+
+    std::cout << "\n";
+
+    return 0;
+}
+
+
+
 /* * * * * * * * * * * * * * ATTACK TEST * * * * * * * * * * * * * * * * */
 
 // int main()
 // {
 //     FragTrap Nicole("Nicole");
-
-//     std::cout << "\n";
-
-//     Nicole.highFivesGuy();
 
 //     std::cout << "\n";
 

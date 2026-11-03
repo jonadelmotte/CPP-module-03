@@ -1,14 +1,24 @@
 #include "../include/ScavTrap.hpp"
 
+/* * * * * * * * * * * * * * SCAV TEST * * * * * * * * * * * * * * * * * */
+
+int main()
+{
+    ScavTrap Josephine("Josephine");
+
+    std::cout << "\n";
+
+    Josephine.guardGate();
+
+    std::cout << "\n";
+}
+
+
 /* * * * * * * * * * * * * * ATTACK TEST * * * * * * * * * * * * * * * * */
 
 // int main()
 // {
-//     ScavTrap Colette("");
-
-//     std::cout << "\n";
-
-//     Colette.guardGate();
+//     ScavTrap Colette("Colette");
 
 //     std::cout << "\n";
 
